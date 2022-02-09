@@ -2,11 +2,15 @@
 # /.bundle
 
 # Ignore the default SQLite database.
-#/db/*.sqlite3
-#/db/*.sqlite3-*
+/db/*.sqlite3
+/db/*.sqlite3-*
 
 # Ignore all logfiles and tempfiles.
-# /log/*
-# /tmp/*
-# !/log/.keep
-# !/tmp/.keep
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+
+/config/environments/development.rb
+/cofnig/environments/production.rb
+/config/master.key
